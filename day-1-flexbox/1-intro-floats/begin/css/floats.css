@@ -30,11 +30,52 @@ div img {
 	max-width: 225px; 
 }
 
+article {
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+	min-height: 1px;
+}
+
+.col-1-4 {
+	background-color: blue;
+	float: left;
+	width: 16%;
+}
+
+
+.col-2-2 {
+	background-color: purple;
+	float: left;
+	width: 40%;
+}
+
+.short, .long {
+	background-color: red;
+	float: left;
+} 
+
+.short {
+	width: 20%;
+}
+
+.long {
+	width: 60%;
+}
+
+.col-1 {
+	background-color: rosybrown;
+	float: left;
+}
+
 /* grid system -- mobile first! */
 
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
+	div {
+		width: 100%;
+	}
 
 }
 /* Desktop screen Sizes */
